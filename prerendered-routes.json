@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/contact",
+    "/designers",
+    "/packages",
+    "/services",
+    "/showcase"
+  ]
+}
