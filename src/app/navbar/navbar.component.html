@@ -10,7 +10,7 @@
   <div class="container-fluid">
     <a class="navbar-brand text-capitalize text-wrap d-none d-lg-block text-start w-100" >Company name</a>
     <div class="w-100">
-      <div class="navbar-nav d-flex flex-column w-100 " [class.mt-5]="nav_check">
+      <div class="navbar-nav d-flex flex-column w-100 pt-4 " [class.mt-5]="nav_check">
         <a class="nav-link text-capitalize" *ngFor="let tap of taps" routerLink="{{tap.page}}" routerLinkActive="active" (click)="expand()">{{tap.page}}</a>
       </div>
     </div>
