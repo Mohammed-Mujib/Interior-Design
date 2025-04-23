@@ -1,0 +1,45 @@
+.Packges ul{
+  background-color: var(--secondary);
+}
+.Packges ul li{
+  background-color: var(--secondary);
+  padding: 16px;
+border-bottom:1px solid #ddd;
+}
+.Packges ul li:last-child{
+  padding: 24px 16px;
+  border: none;
+}
+.Packges ul .li-main{
+  padding: 32px 16px;
+  font-size: 24px;
+}
+
+.Packges .pac-basic .li-main{
+  background-color: var(--accent);
+  color: white;
+}
+.Packges .pac-pro .li-main{
+  background-color: var(--main-color);
+  color: white;
+}
+.Packges ul h3{
+  color: var(--text);
+  margin: 10px 0px;
+}
+.Packges ul span{
+  opacity: .3;
+}
+.Packges ul button{
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+}
+.Packges .pac-basic  button{
+  color: var(--accent);
+  background-color: white;
+}
+.Packges .pac-pro button{
+  color: white;
+  background-color: var(--main-color);
+}

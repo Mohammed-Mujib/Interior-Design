@@ -1,0 +1,22 @@
+.contact{
+  padding-bottom: 20px;
+}
+.contact .form-label{
+  margin: 0;
+  text-transform: capitalize;
+}
+.contact .btn{
+  background-color: var(--main-color);
+  color: white;
+  padding: 12px 24px;
+  margin-bottom: 16px;
+}
+.contact .btn:hover{
+  background-color: var(--secondary);
+  color: var(--accent);
+}
+.contact .form-control:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: var(--main-color) !important;
+}

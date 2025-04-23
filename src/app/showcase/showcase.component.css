@@ -1,0 +1,8 @@
+.showcase img{
+  width: 100%;
+  opacity: .7;
+  transition: .1s;
+}
+.showcase img:hover{
+  opacity: 1;
+}

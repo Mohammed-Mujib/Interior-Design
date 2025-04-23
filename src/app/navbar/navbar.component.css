@@ -1,0 +1,117 @@
+nav{
+  background-color: var(--main-color);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100svh;
+  font-weight: 600;
+  width: 300px;
+}
+nav > div{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: start ;
+
+  /* justify-content: space-evenly; */
+  /* background-color: gray; */
+  height:100% ;
+}
+.navbar-brand{
+  color: white;
+  font-size: 24px;
+  padding: 64px 16px;
+  margin: 10px 0px;
+  /* background-color: yellow; */
+  width: 50%;
+}
+.navbar-nav a{
+  color: white;
+  width: 100% !important;
+  display: block;
+  padding: 8px 16px;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+
+}
+.navbar-nav a:hover{
+  /* background-color: white; */
+  background: linear-gradient(to right,white 40%,rgba(255, 255, 255, 0.553) 60%,rgba(255, 255, 255, 0.263),rgba(255, 255, 255, 0.01));
+  color: var(--text);
+}
+.navbar-nav .active{
+  color: black;
+  padding-left: 30px;
+  background-color: white;
+}
+.navbar-nav .active:hover{
+  cursor: auto;
+  background-color: white;
+}
+.navbar-show-close{
+  position: absolute;
+  top:10px;
+  left:10px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  /* background-color: green; */
+  border: 1px solid white;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  border-radius: 4px;
+}
+.navbar-show-close .inner-show{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.navbar-show-close .navbar-bt-icon{
+  background-color: white;
+  height: 3px;
+  border-radius: 2px;
+  width: 80%;
+  display: block;
+  margin: 3px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left-x{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.rigth-x{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.border-transparent{
+  border-color: transparent;
+  /* background-color: white; */
+}
+.border-transparent *{
+  background-color: var(--main-color);
+}
+
+
+@media (max-width:991px) {
+  .navbar{
+    position: absolute !important;
+    left: -300px;
+    transition: .3s;
+  }
+.expand{
+  left: 0 !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.434) ;
+}
+}

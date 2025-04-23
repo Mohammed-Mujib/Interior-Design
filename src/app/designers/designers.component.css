@@ -1,0 +1,14 @@
+.designer .team
+{
+ background-color: var(--secondary);
+}
+.designer .team img{
+  filter:grayscale(.7);
+  width: 100%;
+}
+.designer .team h3{
+margin: 10px 0px;
+}
+.designer .team .text-contnet{
+  padding: 16px !important;
+}
